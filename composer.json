@@ -1,0 +1,22 @@
+{
+    "name": "sheridan/zf2-maintenance-mode",
+    "description": "A simple maintenance mode plugin for ZF2. When enabled displays a scheduled maintenance page, supports allowed IP addresses.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "maintenance",
+        "zf2"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "zf2MaintenanceMode": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
