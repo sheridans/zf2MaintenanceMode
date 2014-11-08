@@ -14,16 +14,16 @@ A simple maintenance mode plugin for ZF2. When enabled displays a scheduled main
 
 ### Manually
 
-1. Clone this project into your `./vendor/` directory and enable it in your
-   `application.config.php` file.
+Clone this project into your `./vendor/` directory and enable it in your
+`application.config.php` file.
 
 ### Requires
 
-1. PHP >= 5.3.3
+PHP >= 5.3.3
 
 ## Configuration
 
-1. Create a config/maintenance.global.php file with the following contents
+Create a config/maintenance.global.php file with the following contents
 
 	```
 		<?php
@@ -38,5 +38,6 @@ A simple maintenance mode plugin for ZF2. When enabled displays a scheduled main
 	```
 	
 ## Features
+
 1. index.phtml file the content
 2. layout.phtml overrides global site layout
