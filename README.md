@@ -37,3 +37,6 @@ A simple maintenance mode plugin for ZF2. When enabled displays a scheduled main
 		);
 	```
 	
+## Features
+1. index.phtml file the content
+2. layout.phtml overrides global site layout
