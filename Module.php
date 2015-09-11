@@ -39,7 +39,7 @@ class Module
             ? $globalConfig['zf2MaintenanceMode'] : array();
         $enabled = array_key_exists('enabled', $ourConfig) ? (bool)$ourConfig['enabled'] : false;
 
-        if ($enabled) {
+        if ($enabled && !$e->getRequest() instanceof \Zend\Console\Request) {
             $remoteAddress = $_SERVER['REMOTE_ADDR'];
             $allowedAddresses = array_key_exists('allowed', $ourConfig) ?
                 $ourConfig['allowed'] : array();
