@@ -1,3 +1,5 @@
+# ZF2 is EOL, this has been archived for reference purposes.
+
 zf2MaintenanceMode
 ==================
 
